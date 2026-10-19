@@ -1,0 +1,11 @@
+# per-machine state (created by install.sh / bridge_client.py)
+/.venv/
+/runtime/
+/bin/
+
+# personal work built with the bridge
+/projects/
+
+.DS_Store
+__pycache__/
+*.pyc

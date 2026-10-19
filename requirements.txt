@@ -1,0 +1,4 @@
+mcp>=1.30,<2
+numpy>=2.2
+Pillow>=12
+imageio-ffmpeg>=0.6
