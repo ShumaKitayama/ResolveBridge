@@ -28,7 +28,7 @@ warn() { printf '\033[33mwarning:\033[0m %s\n' "$*" >&2; }
 
 # --- 1. Python environment ---------------------------------------------------
 PY=""
-for c in python3.13 python3.12 python3.11 python3.10 python3; do
+for c in python3.14 python3.13 python3.12 python3.11 python3.10 python3; do
 	if command -v "$c" >/dev/null 2>&1 && "$c" -c 'import sys; sys.exit(sys.version_info < (3, 10))' 2>/dev/null; then
 		PY="$(command -v "$c")"; break
 	fi
