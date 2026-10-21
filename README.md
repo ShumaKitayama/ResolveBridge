@@ -30,7 +30,7 @@ cd ResolveBridge
 ```
 ResolveBridge/
 ├─ install.sh                         セットアップ
-├─ requirements.txt                   Python パッケージ（mcp 1.x, numpy, Pillow, imageio-ffmpeg）
+├─ requirements.txt                   Python パッケージ（mcp 1.x, numpy, Pillow, imageio-ffmpeg, certifi）
 ├─ resolve/claude_fusion_bridge.lua   Resolve 内で常駐する中継スクリプト（Lua）
 ├─ mcp/fusion_bridge_mcp.py           MCP サーバー（Claude Code に fusion-bridge として登録）
 ├─ mcp/bridge_client.py               CLI 兼ライブラリ（status / exec / file / stop / token）
